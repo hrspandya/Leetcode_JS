@@ -3,7 +3,7 @@ import React from 'react';
 
 function solution(a, target){
     // loop through the array
-    // subtract array value with target and check if different exist in the map
+    // subtract array value with target and check if difference exist in the map
     // 9 - 2 = 7, check if 7 exist in the map, if so 2 and 7 are two sum, 
     // if not, add the array value to the map (add 2 to the map)
     // go to the next array value.

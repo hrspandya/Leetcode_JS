@@ -5,6 +5,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 import Leetcode_1 from './1';
+import Leetcode_2 from './2';
 
 
 const routing = (
@@ -18,6 +19,7 @@ const routing = (
         <Switch>
           <Route exact path="/" component={App} />
           <Route exact path="/1" component={Leetcode_1} />
+          <Route exact path="/2" component={Leetcode_2} />
         </Switch>
       </div>
     </Router>

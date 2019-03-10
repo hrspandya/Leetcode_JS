@@ -12,6 +12,7 @@ class App extends Component {
         <div>
           <ul>
             <li><Link to="/1">1 Two sum</Link></li>
+            <li><Link to="/2">2 Add Two Numbers</Link></li>
           </ul>
         </div>
       </div>
