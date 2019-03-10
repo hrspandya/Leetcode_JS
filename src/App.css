@@ -1,0 +1,13 @@
+.App {
+  text-align: left;
+  padding: 10px 0px 0px 100px;
+}
+
+.title {
+  padding: 0 0 0 100px;
+  font-weight: bold;
+}
+
+.solution {
+  padding: 0 0 0 100px;
+}
