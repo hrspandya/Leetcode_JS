@@ -13,6 +13,10 @@ class App extends Component {
           <ul>
             <li><Link to="/1">1 Two sum</Link></li>
             <li><Link to="/2">2 Add Two Numbers</Link></li>
+            <li><Link to="/3">3 Longest Substring Without Repeating Characters</Link></li>
+            <li><Link to="/4">4 Median of Two Sorted Arrays</Link></li>
+            <li><Link to="/5">5 Longest Palindromic Substring</Link></li>
+            <li><Link to="/10">10 Regular Expression Matching</Link></li>
           </ul>
         </div>
       </div>

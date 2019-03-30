@@ -6,6 +6,10 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 import Leetcode_1 from './1';
 import Leetcode_2 from './2';
+import Leetcode_3 from './3';
+import Leetcode_4 from './4';
+import Leetcode_5 from './5';
+import Leetcode_10 from './10';
 
 
 const routing = (
@@ -20,6 +24,10 @@ const routing = (
           <Route exact path="/" component={App} />
           <Route exact path="/1" component={Leetcode_1} />
           <Route exact path="/2" component={Leetcode_2} />
+          <Route exact path="/3" component={Leetcode_3} />
+          <Route exact path="/4" component={Leetcode_4} />
+          <Route exact path="/5" component={Leetcode_5} />
+          <Route exact path="/10" component={Leetcode_10} />
         </Switch>
       </div>
     </Router>
