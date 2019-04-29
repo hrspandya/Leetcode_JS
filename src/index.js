@@ -10,6 +10,9 @@ import Leetcode_3 from './3';
 import Leetcode_4 from './4';
 import Leetcode_5 from './5';
 import Leetcode_10 from './10';
+import Leetcode_101 from './101';
+import Trie from './trie';
+import Tree from './tree';
 
 
 const routing = (
@@ -28,6 +31,10 @@ const routing = (
           <Route exact path="/4" component={Leetcode_4} />
           <Route exact path="/5" component={Leetcode_5} />
           <Route exact path="/10" component={Leetcode_10} />
+          <Route exact path="/101" component={Leetcode_101} />
+          <Route exact path="/trie" component={Trie} />
+          <Route exact path="/tree" component={Tree} />
+          
         </Switch>
       </div>
     </Router>

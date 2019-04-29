@@ -17,6 +17,9 @@ class App extends Component {
             <li><Link to="/4">4 Median of Two Sorted Arrays</Link></li>
             <li><Link to="/5">5 Longest Palindromic Substring</Link></li>
             <li><Link to="/10">10 Regular Expression Matching</Link></li>
+            <li><Link to="/101">101 Symmetric Tree</Link></li>
+            <li><Link to="/trie">Trie data structure</Link></li>
+            <li><Link to="/tree">Tree data structure</Link></li>
           </ul>
         </div>
       </div>
